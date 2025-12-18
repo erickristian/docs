@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHÉNIX : La Méthode 30 jours | Du Cœur Brisé à L'amour Retrouvé</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Georgia', serif; background: linear-gradient(135deg, #fdfcfb 0%, #f5f7fa 100%); color: #333; min-height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 40px 0 20px; }
+        .logo { font-size: 28px; font-weight: bold; color: #8b0000; font-style: italic; }
+        .logo span { color: #d4af37; }
+        .tagline { color: #666; font-size: 18px; margin-top: 10px; font-style: italic; }
+        .hero { display: flex; flex-wrap: wrap; align-items: center; background: white; border-radius: 15px; padding: 40px; margin: 30px 0; box-shadow: 0 10px 30px rgba(139, 0, 0, 0.1); border: 1px solid #ffeaea; }
+        .cover { flex: 1; min-width: 300px; display: flex; justify-content: center; align-items: center; padding: 20px; }
+        .cover-box { background: linear-gradient(135deg, #8b0000, #d4af37); width: 100%; max-width: 350px; height: 320px; border-radius: 12px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; padding: 20px; box-shadow: 0 10px 20px rgba(139, 0, 0, 0.2); }
+        .cover-title { font-size: 32px; font-weight: bold; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); text-align: center; }
+        .cover-subtitle { font-size: 20px; font-style: italic; text-align: center; }
+        .content { flex: 2; min-width: 300px; padding: 20px 30px; }
+        h1 { color: #8b0000; font-size: 32px; margin-bottom: 10px; line-height: 1.3; text-align: center; }
+        .subtitle { color: #d4af37; font-size: 22px; margin-bottom: 25px; font-weight: bold; font-style: italic; text-align: center; }
+        .benefits { margin: 25px 0; }
+        .benefits li { margin: 12px 0; padding-left: 35px; position: relative; list-style: none; font-size: 17px; line-height: 1.5; }
+        .benefits li:before { content: "❤️"; position: absolute; left: 0; top: 2px; }
+        .form-box { background: linear-gradient(to right, #fff5f5, #fff); padding: 30px; border-radius: 12px; margin-top: 30px; border-left: 5px solid #d4af37; box-shadow: 0 5px 15px rgba(139, 0, 0, 0.08); }
+        .form-title { color: #8b0000; font-size: 24px; margin-bottom: 20px; text-align: center; }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: bold; color: #555; }
+        .form-group input { width: 100%; padding: 15px; border: 2px solid #e0c9c9; border-radius: 8px; font-size: 16px; transition: all 0.3s; }
+        .form-group input:focus { outline: none; border-color: #d4af37; box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2); }
+        .btn { background: linear-gradient(to right, #8b0000, #a52a2a); color: white; padding: 18px; border: none; border-radius: 8px; font-size: 20px; width: 100%; cursor: pointer; font-weight: bold; transition: all 0.3s; margin-top: 10px; }
+        .btn:hover { background: linear-gradient(to right, #a52a2a, #8b0000); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(139, 0, 0, 0.3); }
+        .guarantee { text-align: center; margin-top: 20px; color: #666; font-size: 15px; font-style: italic; }
+        .testimonials { margin: 50px 0; text-align: center; }
+        .testimonials h2 { color: #8b0000; font-size: 28px; margin-bottom: 40px; }
+        .testimonial { background: white; padding: 25px; border-radius: 10px; margin: 20px; box-shadow: 0 5px 15px rgba(139, 0, 0, 0.05); border-top: 4px solid #d4af37; text-align: left; }
+        .testimonial-text { font-style: italic; color: #555; font-size: 17px; line-height: 1.6; margin-bottom: 15px; }
+        .testimonial-author { color: #8b0000; font-weight: bold; }
+        .creation-badge { background: #fff8e1; border: 2px dashed #d4af37; border-radius: 10px; padding: 15px; margin: 20px 0; text-align: center; }
+        footer { text-align: center; padding: 40px 0; color: #666; border-top: 1px solid #eee; margin-top: 50px; background: #fffafa; }
+        .footer-links a { color: #8b0000; text-decoration: none; margin: 0 15px; }
+        .footer-links a:hover { text-decoration: underline; }
+        @media (max-width: 768px) {
+            .hero { flex-direction: column; padding: 25px; }
+            h1 { font-size: 28px; }
+            .subtitle { font-size: 20px; }
+            .cover-box { height: 280px; max-width: 300px; }
+            .cover { padding: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">PHÉNIX<span>Méthode</span></div>
+            <p class="tagline">Renaître de ses cendres pour retrouver l'amour</p>
+        </header>
+        
+        <div class="hero">
+            <div class="cover">
+                <div class="cover-box">
+                    <div class="cover-title">PHÉNIX</div>
+                    <div class="cover-subtitle">La Méthode 30 jours</div>
+                    <div style="margin-top: 30px; font-size: 18px; font-style: italic; text-align: center;">Du Cœur Brisé<br>à L'amour Retrouvé</div>
+                </div>
+            </div>
+            
+            <div class="content">
+                <h1>PHÉNIX : La Méthode 30 jours</h1>
+                <p class="subtitle">Du Cœur Brisé à L'amour Retrouvé</p>
+                
+                <div class="creation-badge">
+                    <h3 style="color: #8b0000; margin-bottom: 10px;">🎯 EN COURS DE CRÉATION</h3>
+                    <p>Je suis actuellement en train de créer ce guide transformationnel.<br>
+                    <strong>Inscrivez-vous pour être prévenu dès sa sortie et le recevoir GRATUITEMENT !</strong></p>
+                </div>
+                
+                <p style="font-size: 18px; margin-bottom: 20px; text-align: center;">Dans ce guide, vous découvrirez :</p>
+                <ul class="benefits">
+                    <li><strong>Les 5 phases de guérison</strong> pour surmonter une rupture douloureuse</li>
+                    <li><strong>Comment reconstruire votre estime de vous</strong> et retrouver confiance</li>
+                    <li><strong>Les exercices puissants</strong> pour libérer les émotions bloquées</li>
+                    <li><strong>La méthode pour attirer l'amour authentique</strong> dans votre vie</li>
+                    <li><strong>Votre plan jour par jour</strong> pendant 30 jours de transformation</li>
+                </ul>
+                
+                <div class="form-box">
+                    <div class="form-title">Inscrivez-vous pour recevoir le guide GRATUITEMENT à sa sortie :</div>
+                    <form id="ebookForm">
+                        <div class="form-group">
+                            <label>Votre prénom :</label>
+                            <input type="text" id="name" placeholder="Ex: Sophie" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Votre email :</label>
+                            <input type="email" id="email" placeholder="Ex: sophie@email.com" required>
+                        </div>
+                        <button type="submit" class="btn">📋 M'INSCRIRE POUR RECEVOIR LE GUIDE GRATUIT</button>
+                    </form>
+                    <div class="guarantee">
+                        <p>❤️ Vous serez prévenu en premier • 100% gratuit • Pas de spam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="testimonials">
+            <h2>Ce que recherchent nos futurs lecteurs :</h2>
+            <div class="testimonial">
+                <p class="testimonial-text">"Je cherche une vraie méthode pour m'aider à tourner la page après ma rupture. J'ai hâte de découvrir PHÉNIX !"</p>
+                <p class="testimonial-author">- Une future lectrice</p>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">"Enfin un guide qui parle de reconstruction après une rupture. J'attends avec impatience sa sortie !"</p>
+                <p class="testimonial-author">- Un futur lecteur</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2023 PHÉNIX Méthode - Guide en cours de création</p>
+            <div class="footer-links" style="margin-top: 15px;">
+                <a href="#">Mentions légales</a> | 
+                <a href="#">Contact</a>
+            </div>
+            <p style="margin-top: 20px; font-style: italic;">"La plus belle renaissance naît des cendres du passé."</p>
+        </footer>
+    </div>
+    
+    <script>
+        document.getElementById('ebookForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            
+            // Message personnalisé
+            alert("Merci " + name + " ! Vous êtes maintenant inscrit pour recevoir GRATUITEMENT 'PHÉNIX : La Méthode 30 jours' dès sa sortie.\n\nJe vous enverrai un email quand le guide sera prêt !");
+            
+            // Réinitialiser le formulaire
+            document.getElementById('ebookForm').reset();
+            
+            // Enregistrement simulé
+            console.log("Inscription PHÉNIX :", name, email);
+        });
+    </script>
+</body>
+</html>
